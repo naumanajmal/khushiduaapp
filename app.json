@@ -1,6 +1,8 @@
 {
   "expo": {
     "name": "KhushiDuaApp",
+    "plugins": [
+    ],
     "slug": "KhushiDuaApp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -17,17 +19,19 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
-    },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ee4058ad-9048-4a00-b9d2-9704d71c0c2a"
+      }
+    },
+    "android": {
+      "package": "com.nauman7888.KhushiDuaApp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.nauman7888.KhushiDuaApp"
     }
   }
 }
